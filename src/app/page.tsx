@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-full bg-[#1D1D1D] relative">
-      <div className=" mx-[10px] md:mx-auto max-w-6xl ">
+      <div className=" mx-[10px] md:mx-auto max-w-6xl  ">
         <div className="flex items-center justify-between p-[10px] lg:p-10">
           <div className=" hidden lg:flex items-center gap-[26px] justify-start">
             <Image
@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" grid lg:flex items-center lg:justify-between mt-[20px] lg:mt-[50px]">
+        <div className=" grid lg:flex items-center lg:justify-between mt-[20px] lg:mt-[50px] ">
           <div className=" w-full  lg:max-w-[560px] space-y-[27px]">
             <p className="font-[700] text-[20px] lg:text-[48px] text-[#D2D2D2]">
               Mutual Investment
@@ -80,16 +80,6 @@ export default function Home() {
             height={18}
           />
         </div>
-      </div>
-
-      <div className=" absolute left-0 bottom-0">
-        <Image
-          src="/assets/Group1.svg"
-          alt="footer background"
-          width={400}
-          height={400}
-          className="w-full h-auto"
-        />
       </div>
     </div>
   );
