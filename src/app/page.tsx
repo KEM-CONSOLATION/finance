@@ -46,7 +46,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className=" grid lg:flex items-center lg:justify-between mt-[50px]">
+        <div className=" grid lg:flex items-center lg:justify-between mt-[20px] lg:mt-[50px]">
           <div className=" w-full  lg:max-w-[560px] space-y-[27px]">
             <p className="font-[700] text-[20px] lg:text-[48px] text-[#D2D2D2]">
               Mutual Investment
@@ -83,7 +83,13 @@ export default function Home() {
       </div>
 
       <div className=" absolute left-0 bottom-0">
-        <Image src="/assets/Group1.svg" alt="alignleft" layout="fill" />
+        <Image
+          src="/assets/Group1.svg"
+          alt="footer background"
+          width={400}
+          height={400}
+          className="w-full h-auto"
+        />
       </div>
     </div>
   );
